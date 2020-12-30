@@ -6,4 +6,3 @@ use-site-title: false
 ---
 
 
-<i>.....a personal blog about economics, data science, spatial analysis and .....</i>
