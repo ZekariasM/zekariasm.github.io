@@ -1,23 +1,83 @@
+# --- General options --- #
+
 # url is the full website URL
 # baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://zekariasm.github.io"
 baseurl: ""
 
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
 title: Zekarias M.
-#description: We are a group of international experts in infectious disease modelling, Public Health, and software development who collaborate to create the next generation of analysis tools for disease outbreak response using the R software
+
+# Short description of your site
+#description: Econ-DS-ML
+
+# --- Navigation bar options --- #
 
 # List of links in the navigation bar
- navbar-links:
-  Blog: ""
-  Data Analysis: "DataAnalysis"
-  Portfolio: "Portfolio"
-  Visualization: "visualization"
-  Spatial Analysis: "spatial"
+navbar-links:
+  #DataSci: "01ds" "02qe"
+  #Blog:
+    #- Welcome: "http://0.0.0.0:4000/04cv/"
+    #- ss:  "http://0.0.0.0:4000/04cv/"
 
-# Change all these values or delete the ones you don't want (these appear in the footer).
+  Economics: "Economics"
+  Data Analysis: "DataAnalysis"
+  ML4Econ: "ML4Econ"
+  Spatial: "Spatial"
+  #Resume: "Resume"
+  #About Me: "aboutme"
+  #About2: "2aboutme"
+  #Resources:
+    #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    #- Learn markdown: "http://www.markdowntutorial.com/"
+    #- GitHub Pages: "https://pages.github.com/"
+# Author's home: "http://deanattali.com"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+#avatar: "/img/zeki2.jpg"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+#title-img: "/img/zeki2.jpg"
+#title-mig: "/img/avatar-icon.png"
+#title-mig: "/img/zeki2.jpg"
+
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#1E90FF"
+navbar-text-col: "#404040"
+navbar-children-col: "#2E8B57"
+page-col: "#E6E6FA"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#1E90FF"
+footer-text-col: "#000000"
+footer-link-col: "#000000"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+ #page-img: "/img/pathjpg"
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: "Zekarias M."
+  name: Zekarias M.
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -28,34 +88,72 @@ social-network-links:
   email: "zekariasmulu@gmail.com"
   #facebook: daattali
   github: zekariasm
-# Select which links to show in the footer
-footer-links-active:
-  github: true
-  email: true
-  rss: false
-  facebook: false
-  twitter: false
+#  twitter: zekiandzeki
+#  reddit: yourname
+#  google-plus: +DeanAttali
+#  linkedin: zekarias
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: true
-  google: false
-  linkedin: true
+  google: true
+  linkedin: false
 
- Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+#@@@@@@@@@@@@@@@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+
+# --- Web Statistics Section --- #
+
+# Fill in your Google Analytics ID to track your website using GA
+#google_analytics: ""
+
+# Google Tag Manager ID
+#gtm: ""
+
+# Matomo (aka Piwik) Web statistics
+# Uncomment the following section to enable Matomo. The opt-out parameter controls
+# whether or not you want to allow users to opt out of tracking.
+
+#matomo:
+#  site_id: "9"
+#  uri: "demo.wiki.pro"
+#  opt-out: true
+
+# --- Misc --- #
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus: "http://disqus.com/by/zekiarias_m"
 
-# Google Analytics ID
-#google_analytics: "UA-83713279-1"
+# Facebook App ID
+# fb_app_id: ""
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-#timezone: "Europe/London"
+timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM
@@ -77,10 +175,75 @@ defaults:
       layout: "page"
       show-avatar: true
 
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
 # Exclude these files from production site
 exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
+  - Vagrantfile
 
-gems:
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
