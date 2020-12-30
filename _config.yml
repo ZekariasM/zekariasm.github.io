@@ -23,15 +23,11 @@ title: Zekarias M.
 
 # List of links in the navigation bar
 navbar-links:
-  #DataSci: "01ds" "02qe"
-  #Blog:
-    #- Welcome: "http://0.0.0.0:4000/04cv/"
-    #- ss:  "http://0.0.0.0:4000/04cv/"
-
-  Economics: "Economics"
+  Blog: "blog"
   Data Analysis: "DataAnalysis"
-  ML4Econ: "ML4Econ"
-  Spatial: "Spatial"
+  Portfolio: "Portfolio"
+  Visualization: "visualization"
+  Spatial Analysis: "spatial"
   #Resume: "Resume"
   #About Me: "aboutme"
   #About2: "2aboutme"
