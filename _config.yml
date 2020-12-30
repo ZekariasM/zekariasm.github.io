@@ -43,14 +43,14 @@ share-links-active:
   google: false
   linkedin: true
 
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "reconhub-github-io"
+ Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+disqus: "http://disqus.com/by/zekiarias_m"
 
 # Google Analytics ID
-google_analytics: "UA-83713279-1"
+#google_analytics: "UA-83713279-1"
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/London"
+#timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
