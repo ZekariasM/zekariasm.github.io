@@ -1,6 +1,6 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-url: "http://reconhub.github.io"
+url: "http://zekariasm.github.io"
 baseurl: ""
 
 title: Zekarias M.
@@ -42,7 +42,7 @@ share-links-active:
   facebook: true
   google: false
   linkedin: true
-  
+
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus: "reconhub-github-io"
 
