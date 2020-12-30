@@ -8,23 +8,22 @@ title: ZekariasM.
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: ""
   Data Analysis: "DataAnalysis"
   Portfolio: "Portfolio"
   Visualization: "visualization"
   Spatial Analysis: "spatial"
-  About RECON:
-    - What we do: ""
-    - Join us: "join"
-    - Contact: "contact"
-    - Code of Conduct: "CODE_OF_CONDUCT"
-  News: "blog"
+  #About RECON:
+  #  - What we do: ""
+  #  - Join us: "join"
+  #  - Contact: "contact"
+  #  - Code of Conduct: "CODE_OF_CONDUCT"
+  Blog: "blog"
   People: "people"
   Projects: "projects"
-  Resources: "resources"
-  Events: "events"
-  Funding: "funding"
-  Forum: "forum"
+  #Resources: "resources"
+  #Events: "events"
+  #Funding: "funding"
+  #Forum: "forum"
 # ###############################################################
 #navbar-links:
 #  About RECON:
