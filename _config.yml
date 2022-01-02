@@ -43,7 +43,7 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-#title-img: "/img/zeki2.jpg"
+title-img: "/img\background/2background.png"
 #title-mig: "/img/avatar-icon.png"
 #title-mig: "/img/zeki2.jpg"
 
@@ -97,7 +97,7 @@ share-links-active:
   facebook: true
   google: true
   linkedin: false
- 
+
 footer-links-active:
   github: true
 # How to display the link to the website in the footer
