@@ -49,6 +49,7 @@ navbar-links:
 
 # --- Background colour/image options --- #
 
+
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#1E90FF"
@@ -100,7 +101,7 @@ share-links-active:
 
 footer-links-active:
   github: true
-# How to display the link to the website in the footer
+# How to display the link to the websgitite in the footer
 # Remove this if you don't want a link in the footer
 #@@@@@@@@@@@@@@@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
