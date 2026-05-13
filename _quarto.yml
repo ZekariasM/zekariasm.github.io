@@ -1,5 +1,8 @@
 project:
   type: website
+  resources:
+    - "assets/maps/**"
+    - "assets/pdfs/**"
   render:
     - "*.qmd"
     - "projects/*.qmd"
@@ -17,8 +20,6 @@ website:
         text: Home
       - href: projects/index.qmd
         text: Projects
-      - href: resume.qmd
-        text: Resume
       - href: about.qmd
         text: About
       - href: contact.qmd

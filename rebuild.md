@@ -474,7 +474,7 @@ To be credible for analyst and junior data science roles, the portfolio should i
 
 ### Phase 2: Existing Content Migration
 
-- Convert the Atlanta project into a polished case study.
+- Convert the Atlanta project into a polished case study. Initial Quarto case-study page created; final credibility upgrade still requires source notebook or recreated code.
 - Convert the Kenya spatial analysis PDF into a project page.
 - Decide whether to preserve, rewrite, or remove the ArcGIS visualization page.
 - Remove or archive duplicate old files after the new site is working.

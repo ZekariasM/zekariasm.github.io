@@ -13,7 +13,7 @@ This portfolio is being rebuilt with Quarto so each project can be presented as 
 
 The first portfolio case studies to migrate are:
 
-- **Atlanta Arts and Entertainment Clustering**: geospatial clustering analysis using Python, APIs, Folium, and K-means.
+- [**Atlanta Arts and Entertainment Clustering**](projects/atlanta-arts-clustering.qmd): geospatial clustering analysis using Python, APIs, Folium, and K-means.
 - **Spatial Health Risk in Kenya**: ArcGIS-based spatial modeling project currently preserved as a PDF artifact.
 
 ## Technical Focus
