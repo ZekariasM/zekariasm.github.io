@@ -4,91 +4,98 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "This page will become the canonical HTML resume source for the rebuilt portfolio.\nBefore launch, this page should be replaced with current resume content and, if useful, exported or linked as a PDF.\n\n\n\nData Analyst\nBusiness Analyst\nJunior Data Scientist\nMachine Learning-oriented Analyst\n\n\n\n\n\nPython\nSQL\nExcel\nPower BI / Tableau\nStatistics\nMachine Learning\nGeospatial Analysis\nData Storytelling"
+    "text": "This page will become the canonical HTML resume source for the rebuilt portfolio.\nBefore launch, this page should be replaced with current resume content and, if useful, exported or linked as a PDF."
   },
   {
     "objectID": "resume.html#target-roles",
     "href": "resume.html#target-roles",
     "title": "Resume",
-    "section": "",
-    "text": "Data Analyst\nBusiness Analyst\nJunior Data Scientist\nMachine Learning-oriented Analyst"
+    "section": "Target Roles",
+    "text": "Target Roles\n\nData Analyst\nBusiness Analyst\nJunior Data Scientist\nMachine Learning-oriented Analyst"
   },
   {
     "objectID": "resume.html#core-skills-to-evidence",
     "href": "resume.html#core-skills-to-evidence",
     "title": "Resume",
-    "section": "",
-    "text": "Python\nSQL\nExcel\nPower BI / Tableau\nStatistics\nMachine Learning\nGeospatial Analysis\nData Storytelling"
+    "section": "Core Skills To Evidence",
+    "text": "Core Skills To Evidence\n\nPython\nSQL\nExcel\nPower BI / Tableau\nStatistics\nMachine Learning\nGeospatial Analysis\nData Storytelling"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects\nProject pages use a consistent case-study format: outcome, business question, data sources, methods, findings, artifacts, limitations, and reproducibility notes.\nThe first two case studies to migrate are the Atlanta geospatial clustering project and the Kenya spatial health risk project. New SQL, dashboard, Excel, statistics, and machine learning projects should be added only when they have complete evidence.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtlanta Arts and Entertainment Clustering\n\n\n\nPython\n\nGeospatial\n\nClustering\n\nFolium\n\nK-means\n\n\n\nClustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modeling of STH Infections in Kenya\n\n\n\nArcGIS\n\nGeospatial\n\nEpidemiology\n\nSpatial Modeling\n\n\n\nUsed ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.\n\n\n\n\n\nNo matching items"
+    "text": "PORTFOLIO · 2 CASE STUDIES\n\nProjects\nEach project documents the business question, methods, findings, and limitations — written so a non-technical reader can follow the reasoning and a technical one can reproduce the work.\n\n\n\nMore case studies in progress\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtlanta Arts and Entertainment Clustering\n\n\n\nPython\n\nGeospatial\n\nClustering\n\nFolium\n\nK-means\n\n\n\nClustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modeling of STH Infections in Kenya\n\n\n\nArcGIS\n\nGeospatial\n\nEpidemiology\n\nSpatial Modeling\n\n\n\nUsed ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Zekarias M.",
+    "title": "Zekarias G.",
     "section": "",
-    "text": "Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.\nThis portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.\n\n\nThe first portfolio case studies to migrate are:\n\nAtlanta Arts and Entertainment Clustering: geospatial clustering analysis using Python, APIs, Folium, and K-means.\nSpatial Modeling of STH Infections in Kenya: ArcGIS-based spatial modeling project for soil-transmitted helminth infection mapping.\n\n\n\n\n\nPython data analysis with pandas, visualization, and reproducible reports\nSQL analysis for business questions and metrics\nExcel and dashboard-based reporting\nPower BI / Tableau-style business intelligence artifacts\nStatistics, model evaluation, and machine learning workflows\nGeospatial analysis using GIS, maps, and spatial data\n\n\n\n\nPhase 0 is complete: Quarto renders and publishes successfully to GitHub Pages."
+    "text": "Open to data analyst & data engineering roles\n\nDATA ANALYST · DATA ENGINEERING · AI AUTOMATION\nTurning messy data into useful insights through Python, SQL, dashboards, automation, and AI-assisted analysis.\n\nView Projects Contact Me"
   },
   {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
-    "title": "Zekarias M.",
-    "section": "",
-    "text": "The first portfolio case studies to migrate are:\n\nAtlanta Arts and Entertainment Clustering: geospatial clustering analysis using Python, APIs, Folium, and K-means.\nSpatial Modeling of STH Infections in Kenya: ArcGIS-based spatial modeling project for soil-transmitted helminth infection mapping."
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Zekarias G.",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\n\n\n\n\n\n\n\n\nAtlanta Arts and Entertainment Clustering\n\n\n\nPython\n\nGeospatial\n\nClustering\n\nFolium\n\nK-means\n\n\n\nClustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modeling of STH Infections in Kenya\n\n\n\nArcGIS\n\nGeospatial\n\nEpidemiology\n\nSpatial Modeling\n\n\n\nUsed ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#technical-focus",
-    "href": "index.html#technical-focus",
-    "title": "Zekarias M.",
-    "section": "",
-    "text": "Python data analysis with pandas, visualization, and reproducible reports\nSQL analysis for business questions and metrics\nExcel and dashboard-based reporting\nPower BI / Tableau-style business intelligence artifacts\nStatistics, model evaluation, and machine learning workflows\nGeospatial analysis using GIS, maps, and spatial data"
+    "objectID": "index.html#what-i-build",
+    "href": "index.html#what-i-build",
+    "title": "Zekarias G.",
+    "section": "What I Build",
+    "text": "What I Build\n\n\nData Analysis\nBusiness analysis, SQL reporting, and Excel breakdowns that translate raw data into clear, decision-ready findings.\n\n\nData Engineering\nETL pipelines, database work, data cleaning, API collection, and automation that move data from messy to usable.\n\n\nAI & Automation\nAI agents, LLM tools, document analysis assistants, and AI-assisted Excel and SQL workflows for real business tasks.\n\n\nMachine Learning\nSupervised and unsupervised models, baselines, evaluation, and error analysis applied to real business problems."
   },
   {
-    "objectID": "index.html#current-build-status",
-    "href": "index.html#current-build-status",
-    "title": "Zekarias M.",
-    "section": "",
-    "text": "Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages."
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Zekarias G.",
+    "section": "Skills",
+    "text": "Skills\n\n\nData Analysis\nPython SQL pandas Excel Statistics\n\n\nDashboards & Reporting\nPower BI Tableau Excel VBA\n\n\nData Engineering\nETL Data Cleaning Data Pipelines APIs Databases\n\n\nData Science & ML\nscikit-learn Hypothesis Testing Machine Learning AI Agents LLM Tools Predictive Modeling"
+  },
+  {
+    "objectID": "index.html#lets-talk",
+    "href": "index.html#lets-talk",
+    "title": "Zekarias G.",
+    "section": "Let’s talk",
+    "text": "Let’s talk\nOpen to data analyst, business analyst, data engineering, and AI-automation roles. Happy to discuss freelance analytics and automation projects.\n\nEmail me GitHub Contact"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am rebuilding this portfolio around data analysis, business analytics, geospatial analysis, and applied machine learning.\nThe goal is to make each project easy for recruiters, hiring managers, and clients to evaluate: what problem was solved, what data was used, what methods were applied, what changed as a result, and where the supporting artifacts live.\n\n\n\nData cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations\n\n\n\n\n\nGitHub\nEmail"
+    "text": "I am rebuilding this portfolio around data analysis, business analytics, geospatial analysis, and applied machine learning.\nThe goal is to make each project easy for recruiters, hiring managers, and clients to evaluate: what problem was solved, what data was used, what methods were applied, what changed as a result, and where the supporting artifacts live."
   },
   {
     "objectID": "about.html#focus-areas",
     "href": "about.html#focus-areas",
     "title": "About",
-    "section": "",
-    "text": "Data cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations"
+    "section": "Focus Areas",
+    "text": "Focus Areas\n\nData cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations"
   },
   {
     "objectID": "about.html#links",
     "href": "about.html#links",
     "title": "About",
-    "section": "",
-    "text": "GitHub\nEmail"
+    "section": "Links",
+    "text": "Links\n\nGitHub\nEmail"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\nFor portfolio, analytics, or project inquiries:\n\nEmail: zekariasmulu@gmail.com\nGitHub: github.com/zekariasm\n\nLinkedIn and resume links will be added once the final public profile and resume assets are confirmed."
+    "text": "For portfolio, analytics, or project inquiries:\n\nEmail: zekariasmulu@gmail.com\nGitHub: github.com/zekariasm\n\nLinkedIn and resume links will be added once the final public profile and resume assets are confirmed."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html",
     "href": "projects/atlanta-arts-clustering.html",
     "title": "Atlanta Arts and Entertainment Clustering",
     "section": "",
-    "text": "Clustered 244 Atlanta neighborhoods into three arts-and-entertainment access groups and found that 178 neighborhoods fell into the lowest-access cluster in the 2020 analysis.\n\n\n\n\n\n\n\n\n\n\nArea\nDetails\n\n\n\n\nRole\nData analysis, geospatial analysis, clustering, interpretation\n\n\nTools\nPython, pandas, Folium, geopy, Foursquare API, K-means\n\n\nData vintage\n2020 historical analysis\n\n\nGeography\nAtlanta, Georgia\n\n\n\n\n\n\nWhere are arts and entertainment venues concentrated across Atlanta neighborhoods, and which neighborhoods appear underserved relative to the rest of the city?\n\n\n\nArts and entertainment venues are part of a city’s cultural infrastructure. Understanding where these venues concentrate can help planners, local organizations, and stakeholders identify geographic gaps, prioritize outreach, and communicate spatial inequities more clearly.\n\n\n\n\nCity of Atlanta neighborhood boundary and location data from regional open data.\nFoursquare venue data collected during the original 2020 analysis.\nGeocoding and mapping outputs generated with Python tools.\n\nThis is preserved as a historical 2020 analysis. The Foursquare API and access model have changed since the original project, so the current rebuild treats the results as a documented portfolio artifact rather than a freshly rerunnable live data pipeline.\n\n\n\n\nBuilt a neighborhood-level dataset for 244 Atlanta neighborhoods.\nRetrieved nearby arts and entertainment venues by neighborhood.\nEncoded venue categories into numerical features.\nAggregated category frequencies by neighborhood.\nUsed an elbow-method workflow to choose k = 3.\nApplied K-means clustering to group neighborhoods by similar venue patterns.\nMapped the resulting clusters with Folium.\n\n\n\n\n\nThe clustering separated neighborhoods into three groups based on arts and entertainment venue frequency patterns.\nThe largest cluster contained 178 of 244 neighborhoods and represented the lowest-access group in the original analysis.\nA small group of 7 neighborhoods had the highest mean venue frequency and was concentrated around central Atlanta.\nThe result suggests strong spatial concentration rather than evenly distributed cultural access.\n\n\n\n\n\n\n\nAtlanta neighborhoods mapped for the analysis.\n\n\n\n\n\nClustered Atlanta neighborhoods by arts and entertainment venue patterns.\n\n\n\n\n\nNeighborhood count by cluster.\n\n\n\n\n\nElbow method used to select three clusters.\n\n\n\n\n\nThe original Folium maps are preserved as static HTML artifacts.\n\n\n\n\n\n\n\n\nTransformed nested API response data into an analysis-ready table.\nUsed one-hot encoding to convert venue categories into numerical features.\nAggregated venue category frequencies at the neighborhood level.\nApplied unsupervised learning to detect spatial patterns.\nProduced geospatial outputs that communicate the result visually.\n\n\n\n\n\nThe Foursquare venue data reflects the original 2020 collection and may not represent current venue availability.\nFoursquare coverage can vary by neighborhood and by category.\nK-means requires a chosen number of clusters and can simplify complex spatial patterns.\nThe original portfolio artifact preserved screenshots of code and tables; this rebuild should replace those with source notebooks or recreated code where possible.\n\n\n\n\nThe original runnable notebook is not yet linked in this portfolio rebuild. Before final launch, the best improvement would be to recover the original notebook or recreate the workflow using a current open data source such as OpenStreetMap Overpass or Overture Maps.\nFor the MVP, this page should be framed as a historical analysis artifact with preserved maps, methods, and findings.\n\n\n\n\nRecover or recreate the source notebook.\nAdd a public GitHub repository link.\nReplace code and table screenshots with real code blocks and rendered tables.\nConsider rebuilding the project with current open venue data."
+    "text": "Clustered 244 Atlanta neighborhoods into three arts-and-entertainment access groups and found that 178 neighborhoods fell into the lowest-access cluster in the 2020 analysis."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#outcome",
@@ -101,92 +108,92 @@
     "objectID": "projects/atlanta-arts-clustering.html#role-tools-timeline",
     "href": "projects/atlanta-arts-clustering.html#role-tools-timeline",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Area\nDetails\n\n\n\n\nRole\nData analysis, geospatial analysis, clustering, interpretation\n\n\nTools\nPython, pandas, Folium, geopy, Foursquare API, K-means\n\n\nData vintage\n2020 historical analysis\n\n\nGeography\nAtlanta, Georgia"
+    "section": "Role / Tools / Timeline",
+    "text": "Role / Tools / Timeline\n\n\n\n\n\n\n\nArea\nDetails\n\n\n\n\nRole\nData analysis, geospatial analysis, clustering, interpretation\n\n\nTools\nPython, pandas, Folium, geopy, Foursquare API, K-means\n\n\nData vintage\n2020 historical analysis\n\n\nGeography\nAtlanta, Georgia"
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#business-question",
     "href": "projects/atlanta-arts-clustering.html#business-question",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Where are arts and entertainment venues concentrated across Atlanta neighborhoods, and which neighborhoods appear underserved relative to the rest of the city?"
+    "section": "Business Question",
+    "text": "Business Question\nWhere are arts and entertainment venues concentrated across Atlanta neighborhoods, and which neighborhoods appear underserved relative to the rest of the city?"
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#why-it-matters",
     "href": "projects/atlanta-arts-clustering.html#why-it-matters",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Arts and entertainment venues are part of a city’s cultural infrastructure. Understanding where these venues concentrate can help planners, local organizations, and stakeholders identify geographic gaps, prioritize outreach, and communicate spatial inequities more clearly."
+    "section": "Why It Matters",
+    "text": "Why It Matters\nArts and entertainment venues are part of a city’s cultural infrastructure. Understanding where these venues concentrate can help planners, local organizations, and stakeholders identify geographic gaps, prioritize outreach, and communicate spatial inequities more clearly."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#data-sources",
     "href": "projects/atlanta-arts-clustering.html#data-sources",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "City of Atlanta neighborhood boundary and location data from regional open data.\nFoursquare venue data collected during the original 2020 analysis.\nGeocoding and mapping outputs generated with Python tools.\n\nThis is preserved as a historical 2020 analysis. The Foursquare API and access model have changed since the original project, so the current rebuild treats the results as a documented portfolio artifact rather than a freshly rerunnable live data pipeline."
+    "section": "Data Sources",
+    "text": "Data Sources\n\nCity of Atlanta neighborhood boundary and location data from regional open data.\nFoursquare venue data collected during the original 2020 analysis.\nGeocoding and mapping outputs generated with Python tools.\n\nThis is preserved as a historical 2020 analysis. The Foursquare API and access model have changed since the original project, so the current rebuild treats the results as a documented portfolio artifact rather than a freshly rerunnable live data pipeline."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#methods",
     "href": "projects/atlanta-arts-clustering.html#methods",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Built a neighborhood-level dataset for 244 Atlanta neighborhoods.\nRetrieved nearby arts and entertainment venues by neighborhood.\nEncoded venue categories into numerical features.\nAggregated category frequencies by neighborhood.\nUsed an elbow-method workflow to choose k = 3.\nApplied K-means clustering to group neighborhoods by similar venue patterns.\nMapped the resulting clusters with Folium."
+    "section": "Methods",
+    "text": "Methods\n\nBuilt a neighborhood-level dataset for 244 Atlanta neighborhoods.\nRetrieved nearby arts and entertainment venues by neighborhood.\nEncoded venue categories into numerical features.\nAggregated category frequencies by neighborhood.\nUsed an elbow-method workflow to choose k = 3.\nApplied K-means clustering to group neighborhoods by similar venue patterns.\nMapped the resulting clusters with Folium."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#key-findings",
     "href": "projects/atlanta-arts-clustering.html#key-findings",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "The clustering separated neighborhoods into three groups based on arts and entertainment venue frequency patterns.\nThe largest cluster contained 178 of 244 neighborhoods and represented the lowest-access group in the original analysis.\nA small group of 7 neighborhoods had the highest mean venue frequency and was concentrated around central Atlanta.\nThe result suggests strong spatial concentration rather than evenly distributed cultural access."
+    "section": "Key Findings",
+    "text": "Key Findings\n\nThe clustering separated neighborhoods into three groups based on arts and entertainment venue frequency patterns.\nThe largest cluster contained 178 of 244 neighborhoods and represented the lowest-access group in the original analysis.\nA small group of 7 neighborhoods had the highest mean venue frequency and was concentrated around central Atlanta.\nThe result suggests strong spatial concentration rather than evenly distributed cultural access."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#visual-evidence",
     "href": "projects/atlanta-arts-clustering.html#visual-evidence",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Atlanta neighborhoods mapped for the analysis.\n\n\n\n\n\nClustered Atlanta neighborhoods by arts and entertainment venue patterns.\n\n\n\n\n\nNeighborhood count by cluster.\n\n\n\n\n\nElbow method used to select three clusters."
+    "section": "Visual Evidence",
+    "text": "Visual Evidence\n\n\n\nAtlanta neighborhoods mapped for the analysis.\n\n\n\n\n\nClustered Atlanta neighborhoods by arts and entertainment venue patterns.\n\n\n\n\n\nNeighborhood count by cluster.\n\n\n\n\n\nElbow method used to select three clusters."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#interactive-maps",
     "href": "projects/atlanta-arts-clustering.html#interactive-maps",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "The original Folium maps are preserved as static HTML artifacts."
+    "section": "Interactive Maps",
+    "text": "Interactive Maps\nThe original Folium maps are preserved as static HTML artifacts."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#technical-highlights",
     "href": "projects/atlanta-arts-clustering.html#technical-highlights",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Transformed nested API response data into an analysis-ready table.\nUsed one-hot encoding to convert venue categories into numerical features.\nAggregated venue category frequencies at the neighborhood level.\nApplied unsupervised learning to detect spatial patterns.\nProduced geospatial outputs that communicate the result visually."
+    "section": "Technical Highlights",
+    "text": "Technical Highlights\n\nTransformed nested API response data into an analysis-ready table.\nUsed one-hot encoding to convert venue categories into numerical features.\nAggregated venue category frequencies at the neighborhood level.\nApplied unsupervised learning to detect spatial patterns.\nProduced geospatial outputs that communicate the result visually."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#limitations",
     "href": "projects/atlanta-arts-clustering.html#limitations",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "The Foursquare venue data reflects the original 2020 collection and may not represent current venue availability.\nFoursquare coverage can vary by neighborhood and by category.\nK-means requires a chosen number of clusters and can simplify complex spatial patterns.\nThe original portfolio artifact preserved screenshots of code and tables; this rebuild should replace those with source notebooks or recreated code where possible."
+    "section": "Limitations",
+    "text": "Limitations\n\nThe Foursquare venue data reflects the original 2020 collection and may not represent current venue availability.\nFoursquare coverage can vary by neighborhood and by category.\nK-means requires a chosen number of clusters and can simplify complex spatial patterns.\nThe original portfolio artifact preserved screenshots of code and tables; this rebuild should replace those with source notebooks or recreated code where possible."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#reproducibility-how-to-run",
     "href": "projects/atlanta-arts-clustering.html#reproducibility-how-to-run",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "The original runnable notebook is not yet linked in this portfolio rebuild. Before final launch, the best improvement would be to recover the original notebook or recreate the workflow using a current open data source such as OpenStreetMap Overpass or Overture Maps.\nFor the MVP, this page should be framed as a historical analysis artifact with preserved maps, methods, and findings."
+    "section": "Reproducibility / How To Run",
+    "text": "Reproducibility / How To Run\nThe original runnable notebook is not yet linked in this portfolio rebuild. Before final launch, the best improvement would be to recover the original notebook or recreate the workflow using a current open data source such as OpenStreetMap Overpass or Overture Maps.\nFor the MVP, this page should be framed as a historical analysis artifact with preserved maps, methods, and findings."
   },
   {
     "objectID": "projects/atlanta-arts-clustering.html#next-steps",
     "href": "projects/atlanta-arts-clustering.html#next-steps",
     "title": "Atlanta Arts and Entertainment Clustering",
-    "section": "",
-    "text": "Recover or recreate the source notebook.\nAdd a public GitHub repository link.\nReplace code and table screenshots with real code blocks and rendered tables.\nConsider rebuilding the project with current open venue data."
+    "section": "Next Steps",
+    "text": "Next Steps\n\nRecover or recreate the source notebook.\nAdd a public GitHub repository link.\nReplace code and table screenshots with real code blocks and rendered tables.\nConsider rebuilding the project with current open venue data."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html",
     "href": "projects/spatial-health-risk-kenya.html",
     "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Built an ArcGIS workflow to combine school survey, infection outcome, coordinate, district boundary, population, and hydrology data into choropleth maps for soil-transmitted helminth treatment planning in Kenya.\n\n\n\n\n\n\n\n\n\n\nArea\nDetails\n\n\n\n\nRole\nSpatial data preparation, GIS joins, choropleth mapping, epidemiological interpretation\n\n\nTools\nArcGIS, shapefiles, CSV data, spatial joins, choropleth maps\n\n\nDate\nJanuary 16, 2018\n\n\nContext\nGIS Specialization capstone project, Milestone 3\n\n\nGeography\nKenya\n\n\nDomain\nSoil-transmitted helminth infection mapping\n\n\n\n\n\n\n\nDownload the original PDF report\n\n\n\n\nCover page of the original STH Kenya spatial modeling report.\n\n\n\n\n\nHow can school-level epidemiological survey data and geographic boundary data be combined to produce district-level maps of soil-transmitted helminth prevalence in Kenya?\n\n\n\nSpatial modeling helps public health teams identify where infection prevalence is concentrated and where mass treatment strategies may be needed. In this project, prevalence categories follow World Health Organization treatment-planning logic, so the map output is intended to support decision-making rather than only visualization.\n\n\n\nThe original report documents two broad data groups: geographical data and epidemiological data.\n\n\n\n\n\n\n\nFile\nPurpose\n\n\n\n\nschools.csv\nSchool characteristics from the baseline survey, including school ID, water source, and toilet type\n\n\ninfection.csv\nPupil infection outcomes for hookworm, Ascaris lumbricoides, and Trichuris trichiura\n\n\ncoord.csv\nCoordinates for surveyed schools\n\n\nSTH district.csv\nSurvey infection outcomes summarized by district\n\n\nKenya admin.shp\nKenya district boundary shapefile\n\n\nKenya locations.shp\nAdministrative location data and under-five population per square kilometer\n\n\nKenya water bodies.shp\nMajor water bodies for Kenya\n\n\n\n\n\n\n\nConverted relevant spreadsheet datasets into shapefiles compatible with ArcGIS.\nJoined school-level epidemiological data to school coordinate data.\nJoined Kenya administrative boundaries with epidemiological information.\nIncorporated sanitation and water-supply attributes from the school survey.\nSymbolized infection prevalence according to WHO prevalence categories.\nProduced choropleth maps from aggregate epidemiological data to identify districts requiring mass treatment consideration.\n\n\n\n\n\nA documented GIS workflow for preparing public-health survey data for spatial analysis.\nDistrict-level mapping logic for STH infection prevalence.\nA PDF report artifact that preserves the project methods and dataset inventory.\n\n\n\n\n\nCombined tabular epidemiological data with geographic boundary data.\nUsed spatial joins to connect school, district, and health-outcome records.\nModeled three major STH infection types: hookworm, Ascaris lumbricoides, and Trichuris trichiura.\nUsed choropleth mapping to communicate district-level prevalence patterns.\n\n\n\n\n\nThe current portfolio has the final PDF artifact, not the original GIS project files.\nThe PDF is treated as a historical project artifact from 2018.\nThe case study should be expanded if the underlying ArcGIS files, source datasets, or exported maps are recovered.\nWithout the full source project, this page documents the workflow and artifact rather than offering a fully reproducible GIS pipeline.\n\n\n\n\nThe original ArcGIS project files are not currently included in this repo. To make this project reproducible, the next step would be to recover or recreate the source data package, document the spatial joins, and export the final map layers.\n\n\n\n\nRecover the original ArcGIS project files or map exports if available.\nAdd larger map images from the report or original GIS outputs.\nDocument the exact prevalence classes used for treatment-planning categories.\nAdd a short executive summary of the public health recommendation once the final map outputs are available for review."
+    "text": "Built an ArcGIS workflow to combine school survey, infection outcome, coordinate, district boundary, population, and hydrology data into choropleth maps for soil-transmitted helminth treatment planning in Kenya."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#outcome",
@@ -199,77 +206,77 @@
     "objectID": "projects/spatial-health-risk-kenya.html#role-tools-timeline",
     "href": "projects/spatial-health-risk-kenya.html#role-tools-timeline",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "Area\nDetails\n\n\n\n\nRole\nSpatial data preparation, GIS joins, choropleth mapping, epidemiological interpretation\n\n\nTools\nArcGIS, shapefiles, CSV data, spatial joins, choropleth maps\n\n\nDate\nJanuary 16, 2018\n\n\nContext\nGIS Specialization capstone project, Milestone 3\n\n\nGeography\nKenya\n\n\nDomain\nSoil-transmitted helminth infection mapping"
+    "section": "Role / Tools / Timeline",
+    "text": "Role / Tools / Timeline\n\n\n\n\n\n\n\nArea\nDetails\n\n\n\n\nRole\nSpatial data preparation, GIS joins, choropleth mapping, epidemiological interpretation\n\n\nTools\nArcGIS, shapefiles, CSV data, spatial joins, choropleth maps\n\n\nDate\nJanuary 16, 2018\n\n\nContext\nGIS Specialization capstone project, Milestone 3\n\n\nGeography\nKenya\n\n\nDomain\nSoil-transmitted helminth infection mapping"
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#public-artifact",
     "href": "projects/spatial-health-risk-kenya.html#public-artifact",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "Download the original PDF report\n\n\n\n\nCover page of the original STH Kenya spatial modeling report."
+    "section": "Public Artifact",
+    "text": "Public Artifact\n\nDownload the original PDF report\n\n\n\n\nCover page of the original STH Kenya spatial modeling report."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#research-question",
     "href": "projects/spatial-health-risk-kenya.html#research-question",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "How can school-level epidemiological survey data and geographic boundary data be combined to produce district-level maps of soil-transmitted helminth prevalence in Kenya?"
+    "section": "Research Question",
+    "text": "Research Question\nHow can school-level epidemiological survey data and geographic boundary data be combined to produce district-level maps of soil-transmitted helminth prevalence in Kenya?"
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#why-it-matters",
     "href": "projects/spatial-health-risk-kenya.html#why-it-matters",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "Spatial modeling helps public health teams identify where infection prevalence is concentrated and where mass treatment strategies may be needed. In this project, prevalence categories follow World Health Organization treatment-planning logic, so the map output is intended to support decision-making rather than only visualization."
+    "section": "Why It Matters",
+    "text": "Why It Matters\nSpatial modeling helps public health teams identify where infection prevalence is concentrated and where mass treatment strategies may be needed. In this project, prevalence categories follow World Health Organization treatment-planning logic, so the map output is intended to support decision-making rather than only visualization."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#data-sources",
     "href": "projects/spatial-health-risk-kenya.html#data-sources",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "The original report documents two broad data groups: geographical data and epidemiological data.\n\n\n\n\n\n\n\nFile\nPurpose\n\n\n\n\nschools.csv\nSchool characteristics from the baseline survey, including school ID, water source, and toilet type\n\n\ninfection.csv\nPupil infection outcomes for hookworm, Ascaris lumbricoides, and Trichuris trichiura\n\n\ncoord.csv\nCoordinates for surveyed schools\n\n\nSTH district.csv\nSurvey infection outcomes summarized by district\n\n\nKenya admin.shp\nKenya district boundary shapefile\n\n\nKenya locations.shp\nAdministrative location data and under-five population per square kilometer\n\n\nKenya water bodies.shp\nMajor water bodies for Kenya"
+    "section": "Data Sources",
+    "text": "Data Sources\nThe original report documents two broad data groups: geographical data and epidemiological data.\n\n\n\n\n\n\n\nFile\nPurpose\n\n\n\n\nschools.csv\nSchool characteristics from the baseline survey, including school ID, water source, and toilet type\n\n\ninfection.csv\nPupil infection outcomes for hookworm, Ascaris lumbricoides, and Trichuris trichiura\n\n\ncoord.csv\nCoordinates for surveyed schools\n\n\nSTH district.csv\nSurvey infection outcomes summarized by district\n\n\nKenya admin.shp\nKenya district boundary shapefile\n\n\nKenya locations.shp\nAdministrative location data and under-five population per square kilometer\n\n\nKenya water bodies.shp\nMajor water bodies for Kenya"
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#methods",
     "href": "projects/spatial-health-risk-kenya.html#methods",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "Converted relevant spreadsheet datasets into shapefiles compatible with ArcGIS.\nJoined school-level epidemiological data to school coordinate data.\nJoined Kenya administrative boundaries with epidemiological information.\nIncorporated sanitation and water-supply attributes from the school survey.\nSymbolized infection prevalence according to WHO prevalence categories.\nProduced choropleth maps from aggregate epidemiological data to identify districts requiring mass treatment consideration."
+    "section": "Methods",
+    "text": "Methods\n\nConverted relevant spreadsheet datasets into shapefiles compatible with ArcGIS.\nJoined school-level epidemiological data to school coordinate data.\nJoined Kenya administrative boundaries with epidemiological information.\nIncorporated sanitation and water-supply attributes from the school survey.\nSymbolized infection prevalence according to WHO prevalence categories.\nProduced choropleth maps from aggregate epidemiological data to identify districts requiring mass treatment consideration."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#key-outputs",
     "href": "projects/spatial-health-risk-kenya.html#key-outputs",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "A documented GIS workflow for preparing public-health survey data for spatial analysis.\nDistrict-level mapping logic for STH infection prevalence.\nA PDF report artifact that preserves the project methods and dataset inventory."
+    "section": "Key Outputs",
+    "text": "Key Outputs\n\nA documented GIS workflow for preparing public-health survey data for spatial analysis.\nDistrict-level mapping logic for STH infection prevalence.\nA PDF report artifact that preserves the project methods and dataset inventory."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#technical-highlights",
     "href": "projects/spatial-health-risk-kenya.html#technical-highlights",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "Combined tabular epidemiological data with geographic boundary data.\nUsed spatial joins to connect school, district, and health-outcome records.\nModeled three major STH infection types: hookworm, Ascaris lumbricoides, and Trichuris trichiura.\nUsed choropleth mapping to communicate district-level prevalence patterns."
+    "section": "Technical Highlights",
+    "text": "Technical Highlights\n\nCombined tabular epidemiological data with geographic boundary data.\nUsed spatial joins to connect school, district, and health-outcome records.\nModeled three major STH infection types: hookworm, Ascaris lumbricoides, and Trichuris trichiura.\nUsed choropleth mapping to communicate district-level prevalence patterns."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#limitations",
     "href": "projects/spatial-health-risk-kenya.html#limitations",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "The current portfolio has the final PDF artifact, not the original GIS project files.\nThe PDF is treated as a historical project artifact from 2018.\nThe case study should be expanded if the underlying ArcGIS files, source datasets, or exported maps are recovered.\nWithout the full source project, this page documents the workflow and artifact rather than offering a fully reproducible GIS pipeline."
+    "section": "Limitations",
+    "text": "Limitations\n\nThe current portfolio has the final PDF artifact, not the original GIS project files.\nThe PDF is treated as a historical project artifact from 2018.\nThe case study should be expanded if the underlying ArcGIS files, source datasets, or exported maps are recovered.\nWithout the full source project, this page documents the workflow and artifact rather than offering a fully reproducible GIS pipeline."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#reproducibility-how-to-run",
     "href": "projects/spatial-health-risk-kenya.html#reproducibility-how-to-run",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "The original ArcGIS project files are not currently included in this repo. To make this project reproducible, the next step would be to recover or recreate the source data package, document the spatial joins, and export the final map layers."
+    "section": "Reproducibility / How To Run",
+    "text": "Reproducibility / How To Run\nThe original ArcGIS project files are not currently included in this repo. To make this project reproducible, the next step would be to recover or recreate the source data package, document the spatial joins, and export the final map layers."
   },
   {
     "objectID": "projects/spatial-health-risk-kenya.html#next-steps",
     "href": "projects/spatial-health-risk-kenya.html#next-steps",
     "title": "Spatial Modeling of STH Infections in Kenya",
-    "section": "",
-    "text": "Recover the original ArcGIS project files or map exports if available.\nAdd larger map images from the report or original GIS outputs.\nDocument the exact prevalence classes used for treatment-planning categories.\nAdd a short executive summary of the public health recommendation once the final map outputs are available for review."
+    "section": "Next Steps",
+    "text": "Next Steps\n\nRecover the original ArcGIS project files or map exports if available.\nAdd larger map images from the report or original GIS outputs.\nDocument the exact prevalence classes used for treatment-planning categories.\nAdd a short executive summary of the public health recommendation once the final map outputs are available for review."
   }
 ]
