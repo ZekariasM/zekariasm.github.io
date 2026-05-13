@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Data analysis and machine learning portfolio.">
+<meta name="dcterms.date" content="2020-12-29">
+<meta name="description" content="Clustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.">
 
-<title>Zekarias M.</title>
+<title>Atlanta Arts and Entertainment Clustering – Zekarias M.</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,24 +28,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,18 +75,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Zekarias M.">
-<meta property="og:description" content="Data analysis and machine learning portfolio.">
-<meta property="og:image" content="https://zekariasm.github.io/assets/og-image.png">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Atlanta Arts and Entertainment Clustering – Zekarias M.">
+<meta property="og:description" content="Clustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.">
+<meta property="og:image" content="https://zekariasm.github.io/assets/images/atlanta/map2.PNG">
 <meta property="og:site_name" content="Zekarias M.">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Zekarias M.">
-<meta name="twitter:description" content="Data analysis and machine learning portfolio.">
-<meta name="twitter:image" content="https://zekariasm.github.io/assets/og-image.png">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
+<meta name="twitter:title" content="Atlanta Arts and Entertainment Clustering – Zekarias M.">
+<meta name="twitter:description" content="Clustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.">
+<meta name="twitter:image" content="https://zekariasm.github.io/assets/images/atlanta/map2.PNG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -96,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Zekarias M.</span>
     </a>
   </div>
@@ -107,19 +104,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -140,12 +137,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Zekarias M.</h1>
-</div>
+<h1 class="title">Atlanta Arts and Entertainment Clustering</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Geospatial</div>
+    <div class="quarto-category">Clustering</div>
+    <div class="quarto-category">Folium</div>
+    <div class="quarto-category">K-means</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Data analysis and machine learning portfolio.
+    Clustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.
   </div>
 </div>
 
@@ -153,6 +157,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 29, 2020</p>
+    </div>
+  </div>
   
     
   </div>
@@ -162,32 +172,150 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="zekarias-m." class="level1">
-<h1>Zekarias M.</h1>
-<p>Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.</p>
-<p>This portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.</p>
-<section id="featured-work" class="level2">
-<h2 class="anchored" data-anchor-id="featured-work">Featured Work</h2>
-<p>The first portfolio case studies to migrate are:</p>
+<section id="atlanta-arts-and-entertainment-clustering" class="level1">
+<h1>Atlanta Arts and Entertainment Clustering</h1>
+<section id="outcome" class="level2">
+<h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
+<p>Clustered 244 Atlanta neighborhoods into three arts-and-entertainment access groups and found that 178 neighborhoods fell into the lowest-access cluster in the 2020 analysis.</p>
+</section>
+<section id="role-tools-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="role-tools-timeline">Role / Tools / Timeline</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Role</td>
+<td>Data analysis, geospatial analysis, clustering, interpretation</td>
+</tr>
+<tr class="even">
+<td>Tools</td>
+<td>Python, pandas, Folium, geopy, Foursquare API, K-means</td>
+</tr>
+<tr class="odd">
+<td>Data vintage</td>
+<td>2020 historical analysis</td>
+</tr>
+<tr class="even">
+<td>Geography</td>
+<td>Atlanta, Georgia</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="business-question" class="level2">
+<h2 class="anchored" data-anchor-id="business-question">Business Question</h2>
+<p>Where are arts and entertainment venues concentrated across Atlanta neighborhoods, and which neighborhoods appear underserved relative to the rest of the city?</p>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
+<p>Arts and entertainment venues are part of a city’s cultural infrastructure. Understanding where these venues concentrate can help planners, local organizations, and stakeholders identify geographic gaps, prioritize outreach, and communicate spatial inequities more clearly.</p>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
 <ul>
-<li><a href="./projects/atlanta-arts-clustering.html"><strong>Atlanta Arts and Entertainment Clustering</strong></a>: geospatial clustering analysis using Python, APIs, Folium, and K-means.</li>
-<li><strong>Spatial Health Risk in Kenya</strong>: ArcGIS-based spatial modeling project currently preserved as a PDF artifact.</li>
+<li>City of Atlanta neighborhood boundary and location data from regional open data.</li>
+<li>Foursquare venue data collected during the original 2020 analysis.</li>
+<li>Geocoding and mapping outputs generated with Python tools.</li>
+</ul>
+<p>This is preserved as a historical 2020 analysis. The Foursquare API and access model have changed since the original project, so the current rebuild treats the results as a documented portfolio artifact rather than a freshly rerunnable live data pipeline.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<ol type="1">
+<li>Built a neighborhood-level dataset for 244 Atlanta neighborhoods.</li>
+<li>Retrieved nearby arts and entertainment venues by neighborhood.</li>
+<li>Encoded venue categories into numerical features.</li>
+<li>Aggregated category frequencies by neighborhood.</li>
+<li>Used an elbow-method workflow to choose <code>k = 3</code>.</li>
+<li>Applied K-means clustering to group neighborhoods by similar venue patterns.</li>
+<li>Mapped the resulting clusters with Folium.</li>
+</ol>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<ul>
+<li>The clustering separated neighborhoods into three groups based on arts and entertainment venue frequency patterns.</li>
+<li>The largest cluster contained 178 of 244 neighborhoods and represented the lowest-access group in the original analysis.</li>
+<li>A small group of 7 neighborhoods had the highest mean venue frequency and was concentrated around central Atlanta.</li>
+<li>The result suggests strong spatial concentration rather than evenly distributed cultural access.</li>
 </ul>
 </section>
-<section id="technical-focus" class="level2">
-<h2 class="anchored" data-anchor-id="technical-focus">Technical Focus</h2>
+<section id="visual-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="visual-evidence">Visual Evidence</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/atlanta/map1.PNG" class="img-fluid figure-img" alt="Map of Atlanta neighborhoods used in the geospatial analysis."></p>
+<figcaption>Atlanta neighborhoods mapped for the analysis.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/atlanta/map2.PNG" class="img-fluid figure-img" alt="Map showing three clusters of Atlanta neighborhoods."></p>
+<figcaption>Clustered Atlanta neighborhoods by arts and entertainment venue patterns.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/atlanta/8Capture.PNG" class="img-fluid figure-img" alt="Chart showing the number of neighborhoods in each cluster."></p>
+<figcaption>Neighborhood count by cluster.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/atlanta/k-mean.gif" class="img-fluid figure-img" alt="Elbow chart used to select k equals three."></p>
+<figcaption>Elbow method used to select three clusters.</figcaption>
+</figure>
+</div>
+</section>
+<section id="interactive-maps" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-maps">Interactive Maps</h2>
+<p>The original Folium maps are preserved as static HTML artifacts.</p>
+<iframe src="../assets/maps/atlanta/atl_map1.html" title="Atlanta neighborhood Folium map" class="project-map">
+</iframe>
+<iframe src="../assets/maps/atlanta/atl_map2.html" title="Atlanta clustered neighborhood Folium map" class="project-map">
+</iframe>
+</section>
+<section id="technical-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="technical-highlights">Technical Highlights</h2>
 <ul>
-<li>Python data analysis with pandas, visualization, and reproducible reports</li>
-<li>SQL analysis for business questions and metrics</li>
-<li>Excel and dashboard-based reporting</li>
-<li>Power BI / Tableau-style business intelligence artifacts</li>
-<li>Statistics, model evaluation, and machine learning workflows</li>
-<li>Geospatial analysis using GIS, maps, and spatial data</li>
+<li>Transformed nested API response data into an analysis-ready table.</li>
+<li>Used one-hot encoding to convert venue categories into numerical features.</li>
+<li>Aggregated venue category frequencies at the neighborhood level.</li>
+<li>Applied unsupervised learning to detect spatial patterns.</li>
+<li>Produced geospatial outputs that communicate the result visually.</li>
 </ul>
 </section>
-<section id="current-build-status" class="level2">
-<h2 class="anchored" data-anchor-id="current-build-status">Current Build Status</h2>
-<p>Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages.</p>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<ul>
+<li>The Foursquare venue data reflects the original 2020 collection and may not represent current venue availability.</li>
+<li>Foursquare coverage can vary by neighborhood and by category.</li>
+<li>K-means requires a chosen number of clusters and can simplify complex spatial patterns.</li>
+<li>The original portfolio artifact preserved screenshots of code and tables; this rebuild should replace those with source notebooks or recreated code where possible.</li>
+</ul>
+</section>
+<section id="reproducibility-how-to-run" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility-how-to-run">Reproducibility / How To Run</h2>
+<p>The original runnable notebook is not yet linked in this portfolio rebuild. Before final launch, the best improvement would be to recover the original notebook or recreate the workflow using a current open data source such as OpenStreetMap Overpass or Overture Maps.</p>
+<p>For the MVP, this page should be framed as a historical analysis artifact with preserved maps, methods, and findings.</p>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<ul>
+<li>Recover or recreate the source notebook.</li>
+<li>Add a public GitHub repository link.</li>
+<li>Replace code and table screenshots with real code blocks and rendered tables.</li>
+<li>Consider rebuilding the project with current open venue data.</li>
+</ul>
 
 
 </section>
@@ -606,7 +734,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../contact.html">
 <p>Contact</p>
 </a>
   </li>  
