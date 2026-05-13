@@ -1,0 +1,20 @@
+project:
+  type: website
+  render:
+    - index.qmd
+
+website:
+  title: "Zekarias M."
+  site-url: "https://zekariasm.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+
+execute:
+  freeze: auto
