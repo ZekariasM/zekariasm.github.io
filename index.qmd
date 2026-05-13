@@ -1,30 +1,145 @@
 ---
-title: "Zekarias M."
-description: "Data analysis and machine learning portfolio."
+pagetitle: "Zekarias G. — Data Analyst, Data Engineering & AI Automation"
+description: "Data analyst and data engineering portfolio with practical AI and automation projects. Python, SQL, dashboards, data pipelines, machine learning, and AI-assisted analysis."
+title-block-style: none
+toc: false
+page-layout: full
+listing:
+  id: featured-projects
+  contents:
+    - projects/atlanta-arts-clustering.qmd
+    - projects/spatial-health-risk-kenya.qmd
+  type: grid
+  fields: [image, title, description, categories]
+  sort: "date desc"
+  page-size: 6
+  grid-columns: 2
 ---
 
-# Zekarias M.
+::: {.hero}
+::: {.hero-inner}
 
-Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.
+::: {.hero-content}
 
-This portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.
+```{=html}
+<div class="status-pill">
+  <span class="status-dot" aria-hidden="true"></span>
+  Open to data analyst &amp; data engineering roles
+</div>
+```
 
-## Featured Work
+[DATA ANALYST · DATA ENGINEERING · AI AUTOMATION]{.hero-eyebrow}
 
-The first portfolio case studies to migrate are:
+[Turning messy data into useful insights through Python, SQL, dashboards, automation, and AI-assisted analysis.]{.hero-tagline}
 
-- [**Atlanta Arts and Entertainment Clustering**](projects/atlanta-arts-clustering.qmd): geospatial clustering analysis using Python, APIs, Folium, and K-means.
-- [**Spatial Modeling of STH Infections in Kenya**](projects/spatial-health-risk-kenya.qmd): ArcGIS-based spatial modeling project for soil-transmitted helminth infection mapping.
+::: {.hero-cta}
+[View Projects](projects/index.html){.btn-hero-primary}
+[Contact Me](contact.html){.btn-hero-outline}
+:::
 
-## Technical Focus
+:::
 
-- Python data analysis with pandas, visualization, and reproducible reports
-- SQL analysis for business questions and metrics
-- Excel and dashboard-based reporting
-- Power BI / Tableau-style business intelligence artifacts
-- Statistics, model evaluation, and machine learning workflows
-- Geospatial analysis using GIS, maps, and spatial data
+```{=html}
+<div class="hero-visual" aria-hidden="true">
+  <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="hero-glow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.65"/>
+        <stop offset="100%" stop-color="#dbeafe" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="200" cy="180" r="180" fill="url(#hero-glow)"/>
+    <path d="M130 220 L220 100 L310 250" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="220" cy="100" r="46" fill="#2563eb"/>
+    <circle cx="130" cy="220" r="34" fill="#38bdf8"/>
+    <circle cx="310" cy="250" r="26" fill="#22c55e"/>
+    <circle cx="210" cy="90"  r="14" fill="#ffffff" opacity="0.28"/>
+    <circle cx="123" cy="212" r="10" fill="#ffffff" opacity="0.28"/>
+    <circle cx="304" cy="244" r="7"  fill="#ffffff" opacity="0.28"/>
+  </svg>
+</div>
+```
 
-## Current Build Status
+:::
+:::
 
-Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages.
+::: {.skill-strip}
+[Python]{.skill-chip}
+[SQL]{.skill-chip}
+[Excel VBA]{.skill-chip}
+[Power BI]{.skill-chip}
+[Data Pipelines]{.skill-chip}
+[pandas]{.skill-chip}
+[Machine Learning]{.skill-chip}
+[AI Agents]{.skill-chip}
+:::
+
+## Featured Projects {.section-heading}
+
+::: {#featured-projects}
+:::
+
+## What I Build {.section-heading}
+
+::: {.focus-grid}
+
+::: {.focus-card}
+### Data Analysis
+Business analysis, SQL reporting, and Excel breakdowns that translate raw data into clear, decision-ready findings.
+:::
+
+::: {.focus-card}
+### Data Engineering
+ETL pipelines, database work, data cleaning, API collection, and automation that move data from messy to usable.
+:::
+
+::: {.focus-card}
+### AI & Automation
+AI agents, LLM tools, document analysis assistants, and AI-assisted Excel and SQL workflows for real business tasks.
+:::
+
+::: {.focus-card}
+### Machine Learning
+Supervised and unsupervised models, baselines, evaluation, and error analysis applied to real business problems.
+:::
+
+:::
+
+## Skills {.section-heading}
+
+::: {.skills-grid}
+
+::: {.skill-group}
+### Data Analysis
+[Python]{.skill-chip} [SQL]{.skill-chip} [pandas]{.skill-chip} [Excel]{.skill-chip} [Statistics]{.skill-chip}
+:::
+
+::: {.skill-group}
+### Dashboards & Reporting
+[Power BI]{.skill-chip} [Tableau]{.skill-chip} [Excel VBA]{.skill-chip}
+:::
+
+::: {.skill-group}
+### Data Engineering
+[ETL]{.skill-chip} [Data Cleaning]{.skill-chip} [Data Pipelines]{.skill-chip} [APIs]{.skill-chip} [Databases]{.skill-chip}
+:::
+
+::: {.skill-group}
+### Data Science & ML
+[scikit-learn]{.skill-chip} [Hypothesis Testing]{.skill-chip} [Machine Learning]{.skill-chip} [AI Agents]{.skill-chip} [LLM Tools]{.skill-chip} [Predictive Modeling]{.skill-chip}
+:::
+
+:::
+
+::: {.cta-banner}
+## Let's talk
+
+Open to data analyst, business analyst, data engineering, and AI-automation roles. Happy to discuss freelance analytics and automation projects.
+
+::: {.cta-buttons}
+[Email me](mailto:zekariasmulu@gmail.com){.btn-hero-primary}
+[GitHub](https://github.com/zekariasm){.btn-hero-outline}
+[Contact](contact.html){.btn-hero-outline}
+:::
+
+:::

@@ -9,8 +9,6 @@ aliases:
   - /spatial.html
 ---
 
-# Spatial Modeling of STH Infections in Kenya
-
 ## Outcome
 
 Built an ArcGIS workflow to combine school survey, infection outcome, coordinate, district boundary, population, and hydrology data into choropleth maps for soil-transmitted helminth treatment planning in Kenya.

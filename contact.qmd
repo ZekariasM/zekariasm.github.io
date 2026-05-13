@@ -1,9 +1,7 @@
 ---
 title: "Contact"
-description: "Contact information for Zekarias M."
+description: "Contact information for Zekarias G."
 ---
-
-# Contact
 
 For portfolio, analytics, or project inquiries:
 

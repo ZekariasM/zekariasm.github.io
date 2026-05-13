@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 description: "Data analysis, geospatial, dashboard, and machine learning case studies."
+title-block-style: none
 aliases:
   - /visualization
   - /visualization.html
@@ -14,8 +15,16 @@ listing:
   page-size: 12
 ---
 
-# Projects
+::: {.page-header}
 
-Project pages use a consistent case-study format: outcome, business question, data sources, methods, findings, artifacts, limitations, and reproducibility notes.
+[PORTFOLIO · 2 CASE STUDIES]{.page-eyebrow}
 
-The first two case studies to migrate are the Atlanta geospatial clustering project and the Kenya spatial health risk project. New SQL, dashboard, Excel, statistics, and machine learning projects should be added only when they have complete evidence.
+# Projects {.page-title}
+
+[Each project documents the business question, methods, findings, and limitations — written so a non-technical reader can follow the reasoning and a technical one can reproduce the work.]{.page-subtitle}
+
+:::
+
+::: {.progress-note}
+[More case studies in progress]{.progress-text}
+:::

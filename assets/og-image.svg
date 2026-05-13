@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Zekarias M. Data Portfolio</title>
-  <desc id="desc">Open Graph image for the Zekarias M. data analysis and machine learning portfolio.</desc>
+  <title id="title">Zekarias G. Data Portfolio</title>
+  <desc id="desc">Open Graph image for the Zekarias G. data analysis and machine learning portfolio.</desc>
   <rect width="1200" height="630" fill="#0f172a"/>
   <rect x="72" y="72" width="1056" height="486" rx="20" fill="#111827" stroke="#2563eb" stroke-width="4"/>
-  <text x="120" y="220" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Zekarias M.</text>
+  <text x="120" y="220" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Zekarias G.</text>
   <text x="120" y="310" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="600">Data Analysis &amp; Machine Learning Portfolio</text>
   <text x="120" y="405" fill="#e5e7eb" font-family="Arial, Helvetica, sans-serif" font-size="32">Python · SQL · Dashboards · Geospatial Analysis · ML</text>
   <circle cx="1010" cy="205" r="44" fill="#2563eb"/>

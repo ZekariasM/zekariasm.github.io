@@ -8,9 +8,9 @@ project:
     - "projects/*.qmd"
 
 website:
-  title: "Zekarias M."
+  title: "Zekarias G."
   site-url: "https://zekariasm.github.io"
-  description: "Data analysis and machine learning portfolio focused on Python, SQL, dashboards, geospatial analysis, and applied analytics."
+  description: "Data analyst and data engineering portfolio with practical AI and automation projects. Python, SQL, dashboards, data pipelines, machine learning, and AI-assisted analysis."
   favicon: favicon.ico
   open-graph:
     image: /assets/og-image.png
@@ -31,7 +31,7 @@ website:
         href: https://github.com/zekariasm
         text: GitHub
   page-footer:
-    left: "© 2026 Zekarias M."
+    left: "© 2026 Zekarias G."
     right:
       - href: contact.qmd
         text: Contact

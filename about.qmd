@@ -1,9 +1,7 @@
 ---
 title: "About"
-description: "About Zekarias M. and the focus of this data portfolio."
+description: "About Zekarias G. and the focus of this data portfolio."
 ---
-
-# About
 
 I am rebuilding this portfolio around data analysis, business analytics, geospatial analysis, and applied machine learning.
 

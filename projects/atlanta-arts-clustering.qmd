@@ -10,8 +10,6 @@ aliases:
   - /2020-12-29-battle/
 ---
 
-# Atlanta Arts and Entertainment Clustering
-
 ## Outcome
 
 Clustered 244 Atlanta neighborhoods into three arts-and-entertainment access groups and found that 178 neighborhoods fell into the lowest-access cluster in the 2020 analysis.

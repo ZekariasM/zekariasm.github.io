@@ -1,9 +1,7 @@
 ---
 title: "Resume"
-description: "Resume for Zekarias M."
+description: "Resume for Zekarias G."
 ---
-
-# Resume
 
 This page will become the canonical HTML resume source for the rebuilt portfolio.
 
