@@ -41,22 +41,7 @@ listing:
 
 ```{=html}
 <div class="hero-visual" aria-hidden="true">
-  <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <radialGradient id="hero-glow" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.65"/>
-        <stop offset="100%" stop-color="#dbeafe" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <circle cx="200" cy="180" r="180" fill="url(#hero-glow)"/>
-    <path d="M130 220 L220 100 L310 250" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="220" cy="100" r="46" fill="#2563eb"/>
-    <circle cx="130" cy="220" r="34" fill="#38bdf8"/>
-    <circle cx="310" cy="250" r="26" fill="#22c55e"/>
-    <circle cx="210" cy="90"  r="14" fill="#ffffff" opacity="0.28"/>
-    <circle cx="123" cy="212" r="10" fill="#ffffff" opacity="0.28"/>
-    <circle cx="304" cy="244" r="7"  fill="#ffffff" opacity="0.28"/>
-  </svg>
+  <img src="assets/hero-visual.svg" alt="" />
 </div>
 ```
 

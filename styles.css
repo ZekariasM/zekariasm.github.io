@@ -79,12 +79,28 @@ h1, h2, h3, h4 {
   min-width: 0;
 }
 
+/* Pandoc wraps loose spans/links on their own line in <p>.
+   Reset those wrappers so .hero-eyebrow / .hero-tagline / .hero-cta
+   control their own spacing and layout. */
+.hero-content > p {
+  margin: 0 0 1rem;
+}
+
+.hero-content > p:has(.hero-tagline) {
+  margin-bottom: 0;
+}
+
+.hero-cta > p {
+  display: contents;
+}
+
 .hero-visual {
   width: 100%;
   max-width: 420px;
   margin: 0 auto;
 }
 
+.hero-visual img,
 .hero-visual svg {
   width: 100%;
   height: auto;
@@ -460,6 +476,11 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
 }
 
+/* Same Pandoc <p> wrapping fix as .hero-cta */
+.cta-buttons > p {
+  display: contents;
+}
+
 .cta-banner .btn-hero-outline {
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.35);
@@ -577,17 +598,88 @@ main.content.column-page {
   max-width: 44rem;
 }
 
+/* Content pages (About, Contact, Resume): consistent layout & typography.
+   Quarto wraps each ## heading and its content in a <section class="level2">,
+   so we have to style both direct children of <main> and the contents
+   of those sections to keep widths, fonts, and colors aligned. */
+
 main.content:not(.column-page) > p,
 main.content:not(.column-page) > ul,
-main.content:not(.column-page) > ol {
+main.content:not(.column-page) > ol,
+main.content:not(.column-page) > section,
+main.content:not(.column-page) > blockquote {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+/* Body text — same color and rhythm whether direct or nested in a section */
+main.content:not(.column-page) > p,
+main.content:not(.column-page) section.level2 > p,
+main.content:not(.column-page) section.level2 > ul li,
+main.content:not(.column-page) section.level2 > ol li,
+main.content:not(.column-page) > ul li,
+main.content:not(.column-page) > ol li {
   color: var(--portfolio-muted);
   font-size: 1rem;
-  line-height: 1.65;
+  line-height: 1.7;
+}
+
+/* Lists — consistent indent and spacing in both top-level and nested form */
+main.content:not(.column-page) > ul,
+main.content:not(.column-page) > ol,
+main.content:not(.column-page) section.level2 > ul,
+main.content:not(.column-page) section.level2 > ol {
+  padding-left: 1.4rem;
+  margin: 0.5rem 0 1.25rem;
+}
+
+main.content:not(.column-page) li + li {
+  margin-top: 0.35rem;
+}
+
+/* Section headings inside content pages — visually subordinate to the page title */
+main.content:not(.column-page) section.level2 > h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--portfolio-ink);
+  letter-spacing: -0.015em;
+  margin: 2.75rem 0 0.85rem;
+  padding-left: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+main.content:not(.column-page) section.level2 > h2::before {
+  display: none;
+}
+
+/* Inline links inside body content */
+main.content:not(.column-page) section.level2 a,
+main.content:not(.column-page) > p a,
+main.content:not(.column-page) > ul a,
+main.content:not(.column-page) > ol a {
+  color: var(--portfolio-accent);
+  font-weight: 500;
+}
+
+main.content:not(.column-page) section.level2 a:hover,
+main.content:not(.column-page) > p a:hover {
+  color: var(--portfolio-accent-dark);
+  text-decoration: underline;
+}
+
+/* Quiet the anchor icons Quarto adds next to headings on hover */
+main.content:not(.column-page) .anchorjs-link {
+  color: var(--portfolio-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+main.content:not(.column-page) :hover > .anchorjs-link {
+  opacity: 1;
 }
 
 /* Listing grid: override Quarto's fixed 3-col with responsive auto-fit
