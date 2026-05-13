@@ -1,20 +1,45 @@
 project:
   type: website
   render:
-    - index.qmd
+    - "*.qmd"
+    - "projects/*.qmd"
 
 website:
   title: "Zekarias M."
   site-url: "https://zekariasm.github.io"
+  description: "Data analysis and machine learning portfolio focused on Python, SQL, dashboards, geospatial analysis, and applied analytics."
+  favicon: favicon.ico
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+    tools:
+      - icon: github
+        href: https://github.com/zekariasm
+        text: GitHub
+  page-footer:
+    left: "© 2026 Zekarias M."
+    right:
+      - href: contact.qmd
+        text: Contact
+      - href: https://github.com/zekariasm
+        text: GitHub
 
 format:
   html:
     theme: cosmo
     toc: false
+    css: styles.css
 
 execute:
   freeze: auto

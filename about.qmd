@@ -1,0 +1,24 @@
+---
+title: "About"
+description: "About Zekarias M. and the focus of this data portfolio."
+---
+
+# About
+
+I am rebuilding this portfolio around data analysis, business analytics, geospatial analysis, and applied machine learning.
+
+The goal is to make each project easy for recruiters, hiring managers, and clients to evaluate: what problem was solved, what data was used, what methods were applied, what changed as a result, and where the supporting artifacts live.
+
+## Focus Areas
+
+- Data cleaning, exploration, and analysis with Python
+- SQL for business analysis and reporting
+- Dashboards and data storytelling
+- Geospatial analysis and mapping
+- Statistical reasoning and model evaluation
+- Machine learning projects with clear metrics and limitations
+
+## Links
+
+- [GitHub](https://github.com/zekariasm)
+- [Email](mailto:zekariasmulu@gmail.com)

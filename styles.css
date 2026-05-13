@@ -1,0 +1,18 @@
+:root {
+  --portfolio-accent: #2563eb;
+}
+
+a {
+  color: var(--portfolio-accent);
+}
+
+.navbar-brand,
+.navbar-title {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0;
+}

@@ -470,6 +470,7 @@ To be credible for analyst and junior data science roles, the portfolio should i
 - Add analytics only if there is a clear preference for a privacy-respecting tool.
 - Add old URL aliases or redirect pages.
 - Move preserved assets into a cleaner `assets/` structure.
+- Add Quarto project listings only after real case-study pages exist. Avoid empty listing warnings and empty project cards.
 
 ### Phase 2: Existing Content Migration
 

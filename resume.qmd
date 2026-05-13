@@ -1,0 +1,28 @@
+---
+title: "Resume"
+description: "Resume for Zekarias M."
+---
+
+# Resume
+
+This page will become the canonical HTML resume source for the rebuilt portfolio.
+
+Before launch, this page should be replaced with current resume content and, if useful, exported or linked as a PDF.
+
+## Target Roles
+
+- Data Analyst
+- Business Analyst
+- Junior Data Scientist
+- Machine Learning-oriented Analyst
+
+## Core Skills To Evidence
+
+- Python
+- SQL
+- Excel
+- Power BI / Tableau
+- Statistics
+- Machine Learning
+- Geospatial Analysis
+- Data Storytelling

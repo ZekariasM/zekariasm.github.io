@@ -1,7 +1,30 @@
 ---
 title: "Zekarias M."
+description: "Data analysis and machine learning portfolio."
 ---
 
-# Hello
+# Zekarias M.
 
-Quarto deployment proof for the portfolio rebuild.
+Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.
+
+This portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.
+
+## Featured Work
+
+The first portfolio case studies to migrate are:
+
+- **Atlanta Arts and Entertainment Clustering**: geospatial clustering analysis using Python, APIs, Folium, and K-means.
+- **Spatial Health Risk in Kenya**: ArcGIS-based spatial modeling project currently preserved as a PDF artifact.
+
+## Technical Focus
+
+- Python data analysis with pandas, visualization, and reproducible reports
+- SQL analysis for business questions and metrics
+- Excel and dashboard-based reporting
+- Power BI / Tableau-style business intelligence artifacts
+- Statistics, model evaluation, and machine learning workflows
+- Geospatial analysis using GIS, maps, and spatial data
+
+## Current Build Status
+
+Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages.

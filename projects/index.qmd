@@ -1,0 +1,10 @@
+---
+title: "Projects"
+description: "Data analysis, geospatial, dashboard, and machine learning case studies."
+---
+
+# Projects
+
+Project pages will use a consistent case-study format: outcome, business question, data sources, methods, findings, artifacts, limitations, and reproducibility notes.
+
+The first two case studies to migrate are the Atlanta geospatial clustering project and the Kenya spatial health risk project. New SQL, dashboard, Excel, statistics, and machine learning projects should be added only when they have complete evidence.

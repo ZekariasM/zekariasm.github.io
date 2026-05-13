@@ -1,0 +1,13 @@
+---
+title: "Contact"
+description: "Contact information for Zekarias M."
+---
+
+# Contact
+
+For portfolio, analytics, or project inquiries:
+
+- Email: [zekariasmulu@gmail.com](mailto:zekariasmulu@gmail.com)
+- GitHub: [github.com/zekariasm](https://github.com/zekariasm)
+
+LinkedIn and resume links will be added once the final public profile and resume assets are confirmed.
