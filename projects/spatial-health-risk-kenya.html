@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Data analysis and machine learning portfolio.">
+<meta name="dcterms.date" content="2018-01-16">
+<meta name="description" content="Used ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.">
 
-<title>Zekarias M.</title>
+<title>Spatial Modeling of STH Infections in Kenya – Zekarias M.</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,24 +28,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,18 +75,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Zekarias M.">
-<meta property="og:description" content="Data analysis and machine learning portfolio.">
-<meta property="og:image" content="https://zekariasm.github.io/assets/og-image.png">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Spatial Modeling of STH Infections in Kenya – Zekarias M.">
+<meta property="og:description" content="Used ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.">
+<meta property="og:image" content="https://zekariasm.github.io/assets/images/kenya/sth-kenya-cover.png">
 <meta property="og:site_name" content="Zekarias M.">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Zekarias M.">
-<meta name="twitter:description" content="Data analysis and machine learning portfolio.">
-<meta name="twitter:image" content="https://zekariasm.github.io/assets/og-image.png">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:width" content="927">
+<meta name="twitter:title" content="Spatial Modeling of STH Infections in Kenya – Zekarias M.">
+<meta name="twitter:description" content="Used ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.">
+<meta name="twitter:image" content="https://zekariasm.github.io/assets/images/kenya/sth-kenya-cover.png">
+<meta name="twitter:image-height" content="1200">
+<meta name="twitter:image-width" content="927">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -96,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Zekarias M.</span>
     </a>
   </div>
@@ -107,19 +108,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -140,12 +141,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Zekarias M.</h1>
-</div>
+<h1 class="title">Spatial Modeling of STH Infections in Kenya</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ArcGIS</div>
+    <div class="quarto-category">Geospatial</div>
+    <div class="quarto-category">Epidemiology</div>
+    <div class="quarto-category">Spatial Modeling</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Data analysis and machine learning portfolio.
+    Used ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.
   </div>
 </div>
 
@@ -153,6 +160,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 16, 2018</p>
+    </div>
+  </div>
   
     
   </div>
@@ -162,32 +175,168 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="zekarias-m." class="level1">
-<h1>Zekarias M.</h1>
-<p>Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.</p>
-<p>This portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.</p>
-<section id="featured-work" class="level2">
-<h2 class="anchored" data-anchor-id="featured-work">Featured Work</h2>
-<p>The first portfolio case studies to migrate are:</p>
+<section id="spatial-modeling-of-sth-infections-in-kenya" class="level1">
+<h1>Spatial Modeling of STH Infections in Kenya</h1>
+<section id="outcome" class="level2">
+<h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
+<p>Built an ArcGIS workflow to combine school survey, infection outcome, coordinate, district boundary, population, and hydrology data into choropleth maps for soil-transmitted helminth treatment planning in Kenya.</p>
+</section>
+<section id="role-tools-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="role-tools-timeline">Role / Tools / Timeline</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Role</td>
+<td>Spatial data preparation, GIS joins, choropleth mapping, epidemiological interpretation</td>
+</tr>
+<tr class="even">
+<td>Tools</td>
+<td>ArcGIS, shapefiles, CSV data, spatial joins, choropleth maps</td>
+</tr>
+<tr class="odd">
+<td>Date</td>
+<td>January 16, 2018</td>
+</tr>
+<tr class="even">
+<td>Context</td>
+<td>GIS Specialization capstone project, Milestone 3</td>
+</tr>
+<tr class="odd">
+<td>Geography</td>
+<td>Kenya</td>
+</tr>
+<tr class="even">
+<td>Domain</td>
+<td>Soil-transmitted helminth infection mapping</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="public-artifact" class="level2">
+<h2 class="anchored" data-anchor-id="public-artifact">Public Artifact</h2>
 <ul>
-<li><a href="./projects/atlanta-arts-clustering.html"><strong>Atlanta Arts and Entertainment Clustering</strong></a>: geospatial clustering analysis using Python, APIs, Folium, and K-means.</li>
-<li><a href="./projects/spatial-health-risk-kenya.html"><strong>Spatial Modeling of STH Infections in Kenya</strong></a>: ArcGIS-based spatial modeling project for soil-transmitted helminth infection mapping.</li>
+<li><a href="../assets/pdfs/sth-kenya.pdf">Download the original PDF report</a></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/kenya/sth-kenya-cover.png" class="img-fluid figure-img" alt="Cover page of the Spatial Modeling of STH Infections in Kenya report."></p>
+<figcaption>Cover page of the original STH Kenya spatial modeling report.</figcaption>
+</figure>
+</div>
+</section>
+<section id="research-question" class="level2">
+<h2 class="anchored" data-anchor-id="research-question">Research Question</h2>
+<p>How can school-level epidemiological survey data and geographic boundary data be combined to produce district-level maps of soil-transmitted helminth prevalence in Kenya?</p>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
+<p>Spatial modeling helps public health teams identify where infection prevalence is concentrated and where mass treatment strategies may be needed. In this project, prevalence categories follow World Health Organization treatment-planning logic, so the map output is intended to support decision-making rather than only visualization.</p>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
+<p>The original report documents two broad data groups: geographical data and epidemiological data.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>File</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>schools.csv</code></td>
+<td>School characteristics from the baseline survey, including school ID, water source, and toilet type</td>
+</tr>
+<tr class="even">
+<td><code>infection.csv</code></td>
+<td>Pupil infection outcomes for hookworm, <em>Ascaris lumbricoides</em>, and <em>Trichuris trichiura</em></td>
+</tr>
+<tr class="odd">
+<td><code>coord.csv</code></td>
+<td>Coordinates for surveyed schools</td>
+</tr>
+<tr class="even">
+<td><code>STH district.csv</code></td>
+<td>Survey infection outcomes summarized by district</td>
+</tr>
+<tr class="odd">
+<td><code>Kenya admin.shp</code></td>
+<td>Kenya district boundary shapefile</td>
+</tr>
+<tr class="even">
+<td><code>Kenya locations.shp</code></td>
+<td>Administrative location data and under-five population per square kilometer</td>
+</tr>
+<tr class="odd">
+<td><code>Kenya water bodies.shp</code></td>
+<td>Major water bodies for Kenya</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<ol type="1">
+<li>Converted relevant spreadsheet datasets into shapefiles compatible with ArcGIS.</li>
+<li>Joined school-level epidemiological data to school coordinate data.</li>
+<li>Joined Kenya administrative boundaries with epidemiological information.</li>
+<li>Incorporated sanitation and water-supply attributes from the school survey.</li>
+<li>Symbolized infection prevalence according to WHO prevalence categories.</li>
+<li>Produced choropleth maps from aggregate epidemiological data to identify districts requiring mass treatment consideration.</li>
+</ol>
+</section>
+<section id="key-outputs" class="level2">
+<h2 class="anchored" data-anchor-id="key-outputs">Key Outputs</h2>
+<ul>
+<li>A documented GIS workflow for preparing public-health survey data for spatial analysis.</li>
+<li>District-level mapping logic for STH infection prevalence.</li>
+<li>A PDF report artifact that preserves the project methods and dataset inventory.</li>
 </ul>
 </section>
-<section id="technical-focus" class="level2">
-<h2 class="anchored" data-anchor-id="technical-focus">Technical Focus</h2>
+<section id="technical-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="technical-highlights">Technical Highlights</h2>
 <ul>
-<li>Python data analysis with pandas, visualization, and reproducible reports</li>
-<li>SQL analysis for business questions and metrics</li>
-<li>Excel and dashboard-based reporting</li>
-<li>Power BI / Tableau-style business intelligence artifacts</li>
-<li>Statistics, model evaluation, and machine learning workflows</li>
-<li>Geospatial analysis using GIS, maps, and spatial data</li>
+<li>Combined tabular epidemiological data with geographic boundary data.</li>
+<li>Used spatial joins to connect school, district, and health-outcome records.</li>
+<li>Modeled three major STH infection types: hookworm, <em>Ascaris lumbricoides</em>, and <em>Trichuris trichiura</em>.</li>
+<li>Used choropleth mapping to communicate district-level prevalence patterns.</li>
 </ul>
 </section>
-<section id="current-build-status" class="level2">
-<h2 class="anchored" data-anchor-id="current-build-status">Current Build Status</h2>
-<p>Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages.</p>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<ul>
+<li>The current portfolio has the final PDF artifact, not the original GIS project files.</li>
+<li>The PDF is treated as a historical project artifact from 2018.</li>
+<li>The case study should be expanded if the underlying ArcGIS files, source datasets, or exported maps are recovered.</li>
+<li>Without the full source project, this page documents the workflow and artifact rather than offering a fully reproducible GIS pipeline.</li>
+</ul>
+</section>
+<section id="reproducibility-how-to-run" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility-how-to-run">Reproducibility / How To Run</h2>
+<p>The original ArcGIS project files are not currently included in this repo. To make this project reproducible, the next step would be to recover or recreate the source data package, document the spatial joins, and export the final map layers.</p>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<ul>
+<li>Recover the original ArcGIS project files or map exports if available.</li>
+<li>Add larger map images from the report or original GIS outputs.</li>
+<li>Document the exact prevalence classes used for treatment-planning categories.</li>
+<li>Add a short executive summary of the public health recommendation once the final map outputs are available for review.</li>
+</ul>
 
 
 </section>
@@ -606,7 +755,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../contact.html">
 <p>Contact</p>
 </a>
   </li>  

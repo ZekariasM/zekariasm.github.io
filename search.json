@@ -21,6 +21,69 @@
     "text": "Python\nSQL\nExcel\nPower BI / Tableau\nStatistics\nMachine Learning\nGeospatial Analysis\nData Storytelling"
   },
   {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nProject pages use a consistent case-study format: outcome, business question, data sources, methods, findings, artifacts, limitations, and reproducibility notes.\nThe first two case studies to migrate are the Atlanta geospatial clustering project and the Kenya spatial health risk project. New SQL, dashboard, Excel, statistics, and machine learning projects should be added only when they have complete evidence.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtlanta Arts and Entertainment Clustering\n\n\n\nPython\n\nGeospatial\n\nClustering\n\nFolium\n\nK-means\n\n\n\nClustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modeling of STH Infections in Kenya\n\n\n\nArcGIS\n\nGeospatial\n\nEpidemiology\n\nSpatial Modeling\n\n\n\nUsed ArcGIS spatial joins and choropleth mapping to model soil-transmitted helminth infection prevalence for treatment planning in Kenya.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zekarias M.",
+    "section": "",
+    "text": "Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.\nThis portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.\n\n\nThe first portfolio case studies to migrate are:\n\nAtlanta Arts and Entertainment Clustering: geospatial clustering analysis using Python, APIs, Folium, and K-means.\nSpatial Modeling of STH Infections in Kenya: ArcGIS-based spatial modeling project for soil-transmitted helminth infection mapping.\n\n\n\n\n\nPython data analysis with pandas, visualization, and reproducible reports\nSQL analysis for business questions and metrics\nExcel and dashboard-based reporting\nPower BI / Tableau-style business intelligence artifacts\nStatistics, model evaluation, and machine learning workflows\nGeospatial analysis using GIS, maps, and spatial data\n\n\n\n\nPhase 0 is complete: Quarto renders and publishes successfully to GitHub Pages."
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Zekarias M.",
+    "section": "",
+    "text": "The first portfolio case studies to migrate are:\n\nAtlanta Arts and Entertainment Clustering: geospatial clustering analysis using Python, APIs, Folium, and K-means.\nSpatial Modeling of STH Infections in Kenya: ArcGIS-based spatial modeling project for soil-transmitted helminth infection mapping."
+  },
+  {
+    "objectID": "index.html#technical-focus",
+    "href": "index.html#technical-focus",
+    "title": "Zekarias M.",
+    "section": "",
+    "text": "Python data analysis with pandas, visualization, and reproducible reports\nSQL analysis for business questions and metrics\nExcel and dashboard-based reporting\nPower BI / Tableau-style business intelligence artifacts\nStatistics, model evaluation, and machine learning workflows\nGeospatial analysis using GIS, maps, and spatial data"
+  },
+  {
+    "objectID": "index.html#current-build-status",
+    "href": "index.html#current-build-status",
+    "title": "Zekarias M.",
+    "section": "",
+    "text": "Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am rebuilding this portfolio around data analysis, business analytics, geospatial analysis, and applied machine learning.\nThe goal is to make each project easy for recruiters, hiring managers, and clients to evaluate: what problem was solved, what data was used, what methods were applied, what changed as a result, and where the supporting artifacts live.\n\n\n\nData cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations\n\n\n\n\n\nGitHub\nEmail"
+  },
+  {
+    "objectID": "about.html#focus-areas",
+    "href": "about.html#focus-areas",
+    "title": "About",
+    "section": "",
+    "text": "Data cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations"
+  },
+  {
+    "objectID": "about.html#links",
+    "href": "about.html#links",
+    "title": "About",
+    "section": "",
+    "text": "GitHub\nEmail"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nFor portfolio, analytics, or project inquiries:\n\nEmail: zekariasmulu@gmail.com\nGitHub: github.com/zekariasm\n\nLinkedIn and resume links will be added once the final public profile and resume assets are confirmed."
+  },
+  {
     "objectID": "projects/atlanta-arts-clustering.html",
     "href": "projects/atlanta-arts-clustering.html",
     "title": "Atlanta Arts and Entertainment Clustering",
@@ -119,66 +182,94 @@
     "text": "Recover or recreate the source notebook.\nAdd a public GitHub repository link.\nReplace code and table screenshots with real code blocks and rendered tables.\nConsider rebuilding the project with current open venue data."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "projects/spatial-health-risk-kenya.html",
+    "href": "projects/spatial-health-risk-kenya.html",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Contact\nFor portfolio, analytics, or project inquiries:\n\nEmail: zekariasmulu@gmail.com\nGitHub: github.com/zekariasm\n\nLinkedIn and resume links will be added once the final public profile and resume assets are confirmed."
+    "text": "Built an ArcGIS workflow to combine school survey, infection outcome, coordinate, district boundary, population, and hydrology data into choropleth maps for soil-transmitted helminth treatment planning in Kenya.\n\n\n\n\n\n\n\n\n\n\nArea\nDetails\n\n\n\n\nRole\nSpatial data preparation, GIS joins, choropleth mapping, epidemiological interpretation\n\n\nTools\nArcGIS, shapefiles, CSV data, spatial joins, choropleth maps\n\n\nDate\nJanuary 16, 2018\n\n\nContext\nGIS Specialization capstone project, Milestone 3\n\n\nGeography\nKenya\n\n\nDomain\nSoil-transmitted helminth infection mapping\n\n\n\n\n\n\n\nDownload the original PDF report\n\n\n\n\nCover page of the original STH Kenya spatial modeling report.\n\n\n\n\n\nHow can school-level epidemiological survey data and geographic boundary data be combined to produce district-level maps of soil-transmitted helminth prevalence in Kenya?\n\n\n\nSpatial modeling helps public health teams identify where infection prevalence is concentrated and where mass treatment strategies may be needed. In this project, prevalence categories follow World Health Organization treatment-planning logic, so the map output is intended to support decision-making rather than only visualization.\n\n\n\nThe original report documents two broad data groups: geographical data and epidemiological data.\n\n\n\n\n\n\n\nFile\nPurpose\n\n\n\n\nschools.csv\nSchool characteristics from the baseline survey, including school ID, water source, and toilet type\n\n\ninfection.csv\nPupil infection outcomes for hookworm, Ascaris lumbricoides, and Trichuris trichiura\n\n\ncoord.csv\nCoordinates for surveyed schools\n\n\nSTH district.csv\nSurvey infection outcomes summarized by district\n\n\nKenya admin.shp\nKenya district boundary shapefile\n\n\nKenya locations.shp\nAdministrative location data and under-five population per square kilometer\n\n\nKenya water bodies.shp\nMajor water bodies for Kenya\n\n\n\n\n\n\n\nConverted relevant spreadsheet datasets into shapefiles compatible with ArcGIS.\nJoined school-level epidemiological data to school coordinate data.\nJoined Kenya administrative boundaries with epidemiological information.\nIncorporated sanitation and water-supply attributes from the school survey.\nSymbolized infection prevalence according to WHO prevalence categories.\nProduced choropleth maps from aggregate epidemiological data to identify districts requiring mass treatment consideration.\n\n\n\n\n\nA documented GIS workflow for preparing public-health survey data for spatial analysis.\nDistrict-level mapping logic for STH infection prevalence.\nA PDF report artifact that preserves the project methods and dataset inventory.\n\n\n\n\n\nCombined tabular epidemiological data with geographic boundary data.\nUsed spatial joins to connect school, district, and health-outcome records.\nModeled three major STH infection types: hookworm, Ascaris lumbricoides, and Trichuris trichiura.\nUsed choropleth mapping to communicate district-level prevalence patterns.\n\n\n\n\n\nThe current portfolio has the final PDF artifact, not the original GIS project files.\nThe PDF is treated as a historical project artifact from 2018.\nThe case study should be expanded if the underlying ArcGIS files, source datasets, or exported maps are recovered.\nWithout the full source project, this page documents the workflow and artifact rather than offering a fully reproducible GIS pipeline.\n\n\n\n\nThe original ArcGIS project files are not currently included in this repo. To make this project reproducible, the next step would be to recover or recreate the source data package, document the spatial joins, and export the final map layers.\n\n\n\n\nRecover the original ArcGIS project files or map exports if available.\nAdd larger map images from the report or original GIS outputs.\nDocument the exact prevalence classes used for treatment-planning categories.\nAdd a short executive summary of the public health recommendation once the final map outputs are available for review."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects/spatial-health-risk-kenya.html#outcome",
+    "href": "projects/spatial-health-risk-kenya.html#outcome",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "I am rebuilding this portfolio around data analysis, business analytics, geospatial analysis, and applied machine learning.\nThe goal is to make each project easy for recruiters, hiring managers, and clients to evaluate: what problem was solved, what data was used, what methods were applied, what changed as a result, and where the supporting artifacts live.\n\n\n\nData cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations\n\n\n\n\n\nGitHub\nEmail"
+    "text": "Built an ArcGIS workflow to combine school survey, infection outcome, coordinate, district boundary, population, and hydrology data into choropleth maps for soil-transmitted helminth treatment planning in Kenya."
   },
   {
-    "objectID": "about.html#focus-areas",
-    "href": "about.html#focus-areas",
-    "title": "About",
+    "objectID": "projects/spatial-health-risk-kenya.html#role-tools-timeline",
+    "href": "projects/spatial-health-risk-kenya.html#role-tools-timeline",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Data cleaning, exploration, and analysis with Python\nSQL for business analysis and reporting\nDashboards and data storytelling\nGeospatial analysis and mapping\nStatistical reasoning and model evaluation\nMachine learning projects with clear metrics and limitations"
+    "text": "Area\nDetails\n\n\n\n\nRole\nSpatial data preparation, GIS joins, choropleth mapping, epidemiological interpretation\n\n\nTools\nArcGIS, shapefiles, CSV data, spatial joins, choropleth maps\n\n\nDate\nJanuary 16, 2018\n\n\nContext\nGIS Specialization capstone project, Milestone 3\n\n\nGeography\nKenya\n\n\nDomain\nSoil-transmitted helminth infection mapping"
   },
   {
-    "objectID": "about.html#links",
-    "href": "about.html#links",
-    "title": "About",
+    "objectID": "projects/spatial-health-risk-kenya.html#public-artifact",
+    "href": "projects/spatial-health-risk-kenya.html#public-artifact",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "GitHub\nEmail"
+    "text": "Download the original PDF report\n\n\n\n\nCover page of the original STH Kenya spatial modeling report."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Zekarias M.",
+    "objectID": "projects/spatial-health-risk-kenya.html#research-question",
+    "href": "projects/spatial-health-risk-kenya.html#research-question",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Data analyst focused on Python, SQL, dashboards, geospatial analysis, and machine learning.\nThis portfolio is being rebuilt with Quarto so each project can be presented as a clear analytical case study with methods, findings, artifacts, limitations, and reproducibility notes.\n\n\nThe first portfolio case studies to migrate are:\n\nAtlanta Arts and Entertainment Clustering: geospatial clustering analysis using Python, APIs, Folium, and K-means.\nSpatial Health Risk in Kenya: ArcGIS-based spatial modeling project currently preserved as a PDF artifact.\n\n\n\n\n\nPython data analysis with pandas, visualization, and reproducible reports\nSQL analysis for business questions and metrics\nExcel and dashboard-based reporting\nPower BI / Tableau-style business intelligence artifacts\nStatistics, model evaluation, and machine learning workflows\nGeospatial analysis using GIS, maps, and spatial data\n\n\n\n\nPhase 0 is complete: Quarto renders and publishes successfully to GitHub Pages."
+    "text": "How can school-level epidemiological survey data and geographic boundary data be combined to produce district-level maps of soil-transmitted helminth prevalence in Kenya?"
   },
   {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
-    "title": "Zekarias M.",
+    "objectID": "projects/spatial-health-risk-kenya.html#why-it-matters",
+    "href": "projects/spatial-health-risk-kenya.html#why-it-matters",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "The first portfolio case studies to migrate are:\n\nAtlanta Arts and Entertainment Clustering: geospatial clustering analysis using Python, APIs, Folium, and K-means.\nSpatial Health Risk in Kenya: ArcGIS-based spatial modeling project currently preserved as a PDF artifact."
+    "text": "Spatial modeling helps public health teams identify where infection prevalence is concentrated and where mass treatment strategies may be needed. In this project, prevalence categories follow World Health Organization treatment-planning logic, so the map output is intended to support decision-making rather than only visualization."
   },
   {
-    "objectID": "index.html#technical-focus",
-    "href": "index.html#technical-focus",
-    "title": "Zekarias M.",
+    "objectID": "projects/spatial-health-risk-kenya.html#data-sources",
+    "href": "projects/spatial-health-risk-kenya.html#data-sources",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Python data analysis with pandas, visualization, and reproducible reports\nSQL analysis for business questions and metrics\nExcel and dashboard-based reporting\nPower BI / Tableau-style business intelligence artifacts\nStatistics, model evaluation, and machine learning workflows\nGeospatial analysis using GIS, maps, and spatial data"
+    "text": "The original report documents two broad data groups: geographical data and epidemiological data.\n\n\n\n\n\n\n\nFile\nPurpose\n\n\n\n\nschools.csv\nSchool characteristics from the baseline survey, including school ID, water source, and toilet type\n\n\ninfection.csv\nPupil infection outcomes for hookworm, Ascaris lumbricoides, and Trichuris trichiura\n\n\ncoord.csv\nCoordinates for surveyed schools\n\n\nSTH district.csv\nSurvey infection outcomes summarized by district\n\n\nKenya admin.shp\nKenya district boundary shapefile\n\n\nKenya locations.shp\nAdministrative location data and under-five population per square kilometer\n\n\nKenya water bodies.shp\nMajor water bodies for Kenya"
   },
   {
-    "objectID": "index.html#current-build-status",
-    "href": "index.html#current-build-status",
-    "title": "Zekarias M.",
+    "objectID": "projects/spatial-health-risk-kenya.html#methods",
+    "href": "projects/spatial-health-risk-kenya.html#methods",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Phase 0 is complete: Quarto renders and publishes successfully to GitHub Pages."
+    "text": "Converted relevant spreadsheet datasets into shapefiles compatible with ArcGIS.\nJoined school-level epidemiological data to school coordinate data.\nJoined Kenya administrative boundaries with epidemiological information.\nIncorporated sanitation and water-supply attributes from the school survey.\nSymbolized infection prevalence according to WHO prevalence categories.\nProduced choropleth maps from aggregate epidemiological data to identify districts requiring mass treatment consideration."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/spatial-health-risk-kenya.html#key-outputs",
+    "href": "projects/spatial-health-risk-kenya.html#key-outputs",
+    "title": "Spatial Modeling of STH Infections in Kenya",
     "section": "",
-    "text": "Projects\nProject pages use a consistent case-study format: outcome, business question, data sources, methods, findings, artifacts, limitations, and reproducibility notes.\nThe first two case studies to migrate are the Atlanta geospatial clustering project and the Kenya spatial health risk project. New SQL, dashboard, Excel, statistics, and machine learning projects should be added only when they have complete evidence.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtlanta Arts and Entertainment Clustering\n\n\n\nPython\n\nGeospatial\n\nClustering\n\nFolium\n\nK-means\n\n\n\nClustered 244 Atlanta neighborhoods by arts and entertainment venue patterns to identify uneven geographic access.\n\n\n\n\n\nNo matching items"
+    "text": "A documented GIS workflow for preparing public-health survey data for spatial analysis.\nDistrict-level mapping logic for STH infection prevalence.\nA PDF report artifact that preserves the project methods and dataset inventory."
+  },
+  {
+    "objectID": "projects/spatial-health-risk-kenya.html#technical-highlights",
+    "href": "projects/spatial-health-risk-kenya.html#technical-highlights",
+    "title": "Spatial Modeling of STH Infections in Kenya",
+    "section": "",
+    "text": "Combined tabular epidemiological data with geographic boundary data.\nUsed spatial joins to connect school, district, and health-outcome records.\nModeled three major STH infection types: hookworm, Ascaris lumbricoides, and Trichuris trichiura.\nUsed choropleth mapping to communicate district-level prevalence patterns."
+  },
+  {
+    "objectID": "projects/spatial-health-risk-kenya.html#limitations",
+    "href": "projects/spatial-health-risk-kenya.html#limitations",
+    "title": "Spatial Modeling of STH Infections in Kenya",
+    "section": "",
+    "text": "The current portfolio has the final PDF artifact, not the original GIS project files.\nThe PDF is treated as a historical project artifact from 2018.\nThe case study should be expanded if the underlying ArcGIS files, source datasets, or exported maps are recovered.\nWithout the full source project, this page documents the workflow and artifact rather than offering a fully reproducible GIS pipeline."
+  },
+  {
+    "objectID": "projects/spatial-health-risk-kenya.html#reproducibility-how-to-run",
+    "href": "projects/spatial-health-risk-kenya.html#reproducibility-how-to-run",
+    "title": "Spatial Modeling of STH Infections in Kenya",
+    "section": "",
+    "text": "The original ArcGIS project files are not currently included in this repo. To make this project reproducible, the next step would be to recover or recreate the source data package, document the spatial joins, and export the final map layers."
+  },
+  {
+    "objectID": "projects/spatial-health-risk-kenya.html#next-steps",
+    "href": "projects/spatial-health-risk-kenya.html#next-steps",
+    "title": "Spatial Modeling of STH Infections in Kenya",
+    "section": "",
+    "text": "Recover the original ArcGIS project files or map exports if available.\nAdd larger map images from the report or original GIS outputs.\nDocument the exact prevalence classes used for treatment-planning categories.\nAdd a short executive summary of the public health recommendation once the final map outputs are available for review."
   }
 ]
