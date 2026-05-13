@@ -1,6 +1,13 @@
 ---
 title: "Projects"
 description: "Data analysis, geospatial, dashboard, and machine learning case studies."
+aliases:
+  - /spatial
+  - /spatial.html
+  - /visualization
+  - /visualization.html
+  - /DataAnalysis
+  - /DataAnalysis.html
 listing:
   contents: "*.qmd"
   type: grid

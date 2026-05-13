@@ -12,8 +12,10 @@ website:
   site-url: "https://zekariasm.github.io"
   description: "Data analysis and machine learning portfolio focused on Python, SQL, dashboards, geospatial analysis, and applied analytics."
   favicon: favicon.ico
-  open-graph: true
-  twitter-card: true
+  open-graph:
+    image: /assets/og-image.png
+  twitter-card:
+    image: /assets/og-image.png
   navbar:
     left:
       - href: index.qmd
