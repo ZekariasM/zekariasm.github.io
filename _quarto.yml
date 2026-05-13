@@ -4,7 +4,10 @@ project:
     - "assets/maps/**"
     - "assets/pdfs/**"
   render:
-    - "*.qmd"
+    - "index.qmd"
+    - "about.qmd"
+    - "contact.qmd"
+    - "resume.qmd"
     - "projects/*.qmd"
 
 website:
